@@ -7,3 +7,5 @@ Image info: We run a loop over the folder of a whole year's image, track down th
 Houses Crop: We crop the houses within each image into a new folder
 
 Completeness Check: We check if the images fully cover the whole area of toronto
+
+Image resize: We resize the image to 640*640 and generate empty file for labeling of images without objects.
