@@ -76,8 +76,8 @@ class ImageClassifierApp:
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
 
     def get_image_path(self, house_id, year):
-        """Construct image path based on year folder and house ID"""
-        return os.path.join(self.image_base_folder, str(year), f"house_{house_id}.jpg")
+        """Construct image path using house_id and year"""
+        return os.path.join(self.image_base_folder, str(year), house_id)
 
     def show_current_image(self):
         if self.current_index < len(self.queue):
@@ -145,8 +145,8 @@ class ImageClassifierApp:
 
 if __name__ == "__main__":
     # Configuration - modify these paths as needed
-    EXCEL_PATH = "house_data.xlsx"
-    IMAGE_BASE_FOLDER = "./image/" 
+    EXCEL_PATH = "Claire_pretrain.xlsx"
+    IMAGE_BASE_FOLDER = "./Claire/" 
     OUTPUT_EXCEL = EXCEL_PATH  # Save results back to original file
 
     root = tk.Tk()
