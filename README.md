@@ -12,7 +12,11 @@ Image resize: We resize the image to 640*640 and generate empty file for labelin
 
 RGB_Adapter: Convert pictures with four color channels into RGB bands.
 
-House_Image_Classifier: Use a GUI to display images from previous years and move them to a specified folder.
+House_Image_Classifier: Use a GUI to display images from previous years and move them to a specified folder. (old)
+
+House Image Classifier GUI: A Python GUI application for classifying house images.
+
+Roof Change GUI: A Python GUI for identifying house roof change.
 
 ---
 
@@ -25,5 +29,4 @@ Year 2019: EPSG:2958 (File "TorontoBoundarywgs84" passed the completeness check)
 Year 2020-2022: EPSG:2952
 
 ---
-
 
