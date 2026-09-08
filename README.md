@@ -9,3 +9,24 @@ Houses Crop: We crop the houses within each image into a new folder
 Completeness Check: We check if the images fully cover the whole area of toronto
 
 Image resize: We resize the image to 640*640 and generate empty file for labeling of images without objects.
+
+RGB_Adapter: Convert pictures with four color channels into RGB bands.
+
+House_Image_Classifier: Use a GUI to display images from previous years and move them to a specified folder. (old)
+
+House Image Classifier GUI: A Python GUI application for classifying house images.
+
+Roof Change GUI: A Python GUI for identifying house roof change.
+
+---
+
+## Crs Clarification
+
+Year 2011-2018: EPSG:2019
+
+Year 2019: EPSG:2958 (File "TorontoBoundarywgs84" passed the completeness check)
+
+Year 2020-2022: EPSG:2952
+
+---
+
